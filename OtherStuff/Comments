@@ -1,0 +1,22 @@
+//DELEGATES
+
+//First you declare the delegate, then you create a delegate field
+//You want to make sure The field is not null, because if it is, you will get an error.
+//So it Seems to me that a delegate is like a variable that you put functions or methods into. 
+//So when you call the delegate it performs the functions inside of it
+
+
+
+https://github.com/barrywhubler/GIMM350UtilsProject
+
+
+
+ The Scope 
+
+The Scope of the Game, for now, really scales things back, but it is also the main part of the game, 
+becuase at this point of the game the level being worked on will just be the part of the game where you are black smithing.  
+So I will need to set up the blacksmithery, and all the main tools in there, which will be a lot of work, but I won't be working 
+on the mining parts of the game for right now.  If I can finish the sword making part early, I might go ahead and work on the 
+customer service part of the game.  With the VR the user will be surrounded by all the sparks  and fire of a blacksmith shop 
+without bbeing in actual dander of perishing in a smelting accident.  That makes me think, I'm really going to have to make those 
+fire effects look amazing.
