@@ -1,0 +1,72 @@
+int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+c = a - b;
+Console.WriteLine(c);
+c = a * b;
+Console.WriteLine(c);
+c = a / b;
+Console.WriteLine(c);
+
+int aa = 5;
+int bb = 6;
+if (aa + bb > 10)
+    Console.WriteLine("The answer is greater than 10.");
+
+
+bb = 3;
+int cc = 4;
+if (aa + bb > 10){
+    Console.WriteLine("The answer is greater than 10.");
+    }
+    else{
+    Console.WriteLine("The answer is not greater than 10");
+}
+
+if ((aa + bb + cc > 10) && (aa==bb)){
+    Console.WriteLine("The answer is greater than 10.");
+    Console.WriteLine("And the first number is equal to the second");
+    }
+    else{
+    Console.WriteLine("The answer is not greater than 10");
+    Console.WriteLine("Or the first number is not equal to the second");
+}
+
+if ((aa + bb + cc > 10) || (aa==bb)){
+    Console.WriteLine("The answer is greater than 10.");
+    Console.WriteLine("or the first number is equal to the second");
+    }
+    else{
+    Console.WriteLine("The answer is not greater than 10");
+    Console.WriteLine("and the first number is not equal to the second");
+}
+
+int counter = 0;
+while (counter < 10)
+{
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+}
+
+
+do
+{
+  Console.WriteLine($"Hello World! The counter is {counter}");
+  counter++;
+} while (counter < 10);
+
+for(int counterOne = 13; counterOne < 15; counterOne++)
+{
+  Console.WriteLine($"  H3ll0  W0rld!  The c0unt3r is {counterOne}");
+}
+int sumCookie = 0;
+for(int counterTwo = 1; counterTwo < 21; counterTwo++)
+{
+    if (counterTwo % 3 == 0){
+        Console.WriteLine($"The c0unt3r is {counterTwo}");
+        sumCookie += counterTwo;
+    }
+}
+
+Console.WriteLine($"The sum is {sumCookie}");
